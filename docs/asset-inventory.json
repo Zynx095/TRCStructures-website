@@ -1,0 +1,542 @@
+[
+  {
+    "file": "images/portfolio/kptcl-substation-kodigenahalli/01-foundation-concrete-pour.jpg",
+    "project": "kptcl-substation-kodigenahalli",
+    "pdf_page": 4,
+    "xref": 68,
+    "original": "1120x840",
+    "output": "1120x840",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/kptcl-substation-kodigenahalli/02-column-cages-evening.jpg",
+    "project": "kptcl-substation-kodigenahalli",
+    "pdf_page": 5,
+    "xref": 74,
+    "original": "960x1280",
+    "output": "960x1280",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/kptcl-substation-kodigenahalli/03-footing-pcc.jpg",
+    "project": "kptcl-substation-kodigenahalli",
+    "pdf_page": 5,
+    "xref": 75,
+    "original": "960x720",
+    "output": "960x720",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/kptcl-substation-kodigenahalli/04-footing-reinforcement.jpg",
+    "project": "kptcl-substation-kodigenahalli",
+    "pdf_page": 5,
+    "xref": 76,
+    "original": "960x720",
+    "output": "960x720",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sri-sai-vidya-mandir-school/01-blockwork-elevation.jpg",
+    "project": "sri-sai-vidya-mandir-school",
+    "pdf_page": 6,
+    "xref": 81,
+    "original": "896x504",
+    "output": "896x504",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sri-sai-vidya-mandir-school/02-front-elevation.jpg",
+    "project": "sri-sai-vidya-mandir-school",
+    "pdf_page": 6,
+    "xref": 80,
+    "original": "896x504",
+    "output": "896x504",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sri-sai-vidya-mandir-school/03-elevation-with-signage.jpg",
+    "project": "sri-sai-vidya-mandir-school",
+    "pdf_page": 7,
+    "xref": 87,
+    "original": "720x1280",
+    "output": "720x1178",
+    "cropped_for": "camera watermark",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sri-sai-vidya-mandir-school/04-blockwork-in-progress.jpg",
+    "project": "sri-sai-vidya-mandir-school",
+    "pdf_page": 7,
+    "xref": 88,
+    "original": "1152x648",
+    "output": "1152x570",
+    "cropped_for": "camera watermark",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sri-sai-vidya-mandir-school/05-street-elevation.jpg",
+    "project": "sri-sai-vidya-mandir-school",
+    "pdf_page": 7,
+    "xref": 89,
+    "original": "1152x648",
+    "output": "1152x583",
+    "cropped_for": "camera watermark",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sri-sai-vidya-mandir-school/06-roof-level-blockwork.jpg",
+    "project": "sri-sai-vidya-mandir-school",
+    "pdf_page": 7,
+    "xref": 90,
+    "original": "1152x648",
+    "output": "1152x583",
+    "cropped_for": "camera watermark",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/maa-bhoomi-green-city-layout/01-layout-grading.jpg",
+    "project": "maa-bhoomi-green-city-layout",
+    "pdf_page": 8,
+    "xref": 95,
+    "original": "1152x864",
+    "output": "1152x864",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/maa-bhoomi-green-city-layout/02-pipeline-trench.jpg",
+    "project": "maa-bhoomi-green-city-layout",
+    "pdf_page": 9,
+    "xref": 103,
+    "original": "1280x960",
+    "output": "1280x960",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/maa-bhoomi-green-city-layout/03-pipe-laying.jpg",
+    "project": "maa-bhoomi-green-city-layout",
+    "pdf_page": 9,
+    "xref": 101,
+    "original": "768x1024",
+    "output": "768x1024",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/maa-bhoomi-green-city-layout/04-inspection-chamber.jpg",
+    "project": "maa-bhoomi-green-city-layout",
+    "pdf_page": 9,
+    "xref": 102,
+    "original": "768x1024",
+    "output": "768x1024",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/kptcl-retaining-wall/01-retaining-wall.jpg",
+    "project": "kptcl-retaining-wall",
+    "pdf_page": 10,
+    "xref": 107,
+    "original": "1280x720",
+    "output": "1280x720",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/kptcl-retaining-wall/02-wall-alignment.jpg",
+    "project": "kptcl-retaining-wall",
+    "pdf_page": 11,
+    "xref": 113,
+    "original": "960x1280",
+    "output": "960x1280",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/kptcl-retaining-wall/03-wall-base.jpg",
+    "project": "kptcl-retaining-wall",
+    "pdf_page": 11,
+    "xref": 114,
+    "original": "768x1024",
+    "output": "768x1024",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/kptcl-retaining-wall/04-reinforcement.jpg",
+    "project": "kptcl-retaining-wall",
+    "pdf_page": 11,
+    "xref": 115,
+    "original": "768x1024",
+    "output": "768x1024",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/kptcl-retaining-wall/05-formwork.jpg",
+    "project": "kptcl-retaining-wall",
+    "pdf_page": 11,
+    "xref": 116,
+    "original": "672x896",
+    "output": "672x896",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/bmrcl-starworth-reality/01-granite-flooring-detail.jpg",
+    "project": "bmrcl-starworth-reality",
+    "pdf_page": 12,
+    "xref": 121,
+    "original": "2285x1714",
+    "output": "2285x1714",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/bmrcl-starworth-reality/02-platform-level.jpg",
+    "project": "bmrcl-starworth-reality",
+    "pdf_page": 12,
+    "xref": 120,
+    "original": "1280x590",
+    "output": "1280x590",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/bmrcl-starworth-reality/03-platform-works.jpg",
+    "project": "bmrcl-starworth-reality",
+    "pdf_page": 13,
+    "xref": 128,
+    "original": "1152x531",
+    "output": "1152x531",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/bmrcl-starworth-reality/04-platform-flooring.jpg",
+    "project": "bmrcl-starworth-reality",
+    "pdf_page": 13,
+    "xref": 127,
+    "original": "1280x590",
+    "output": "1280x590",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/bmrcl-starworth-reality/05-platform-overview.jpg",
+    "project": "bmrcl-starworth-reality",
+    "pdf_page": 13,
+    "xref": 129,
+    "original": "1152x531",
+    "output": "1152x531",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/garden-city-office-hebbal-infra/01-office-fit-out.jpg",
+    "project": "garden-city-office-hebbal-infra",
+    "pdf_page": 15,
+    "xref": 141,
+    "original": "1280x720",
+    "output": "1280x720",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/garden-city-office-hebbal-infra/02-fit-out-in-progress.jpg",
+    "project": "garden-city-office-hebbal-infra",
+    "pdf_page": 14,
+    "xref": 134,
+    "original": "1152x519",
+    "output": "1152x488",
+    "cropped_for": "timestamp text",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/garden-city-office-hebbal-infra/03-glass-partition.jpg",
+    "project": "garden-city-office-hebbal-infra",
+    "pdf_page": 14,
+    "xref": 135,
+    "original": "1280x576",
+    "output": "1280x576",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/garden-city-office-hebbal-infra/04-partition-detail.jpg",
+    "project": "garden-city-office-hebbal-infra",
+    "pdf_page": 15,
+    "xref": 142,
+    "original": "896x672",
+    "output": "896x672",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/garden-city-office-hebbal-infra/05-ceiling-works.jpg",
+    "project": "garden-city-office-hebbal-infra",
+    "pdf_page": 15,
+    "xref": 143,
+    "original": "576x1280",
+    "output": "576x1190",
+    "cropped_for": "timestamp text",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/residential-renovation-bengaluru/01-renovation-in-progress.jpg",
+    "project": "residential-renovation-bengaluru",
+    "pdf_page": 16,
+    "xref": 147,
+    "original": "2420x1815",
+    "output": "1500x1815",
+    "cropped_for": "selfie of a person removed",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/residential-renovation-bengaluru/02-kitchen-installation.jpg",
+    "project": "residential-renovation-bengaluru",
+    "pdf_page": 16,
+    "xref": 148,
+    "original": "1928x2571",
+    "output": "1800x2400",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/prestige-key-garden-flat-interior/01-wardrobe.jpg",
+    "project": "prestige-key-garden-flat-interior",
+    "pdf_page": 17,
+    "xref": 153,
+    "original": "1024x768",
+    "output": "1024x768",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/prestige-key-garden-flat-interior/02-wardrobe-shutters.jpg",
+    "project": "prestige-key-garden-flat-interior",
+    "pdf_page": 18,
+    "xref": 159,
+    "original": "720x1280",
+    "output": "720x1280",
+    "cropped_for": null,
+    "attribution": "inferred from page sequence"
+  },
+  {
+    "file": "images/portfolio/prestige-key-garden-flat-interior/03-storage-unit.jpg",
+    "project": "prestige-key-garden-flat-interior",
+    "pdf_page": 18,
+    "xref": 160,
+    "original": "768x1024",
+    "output": "768x1024",
+    "cropped_for": null,
+    "attribution": "inferred from page sequence"
+  },
+  {
+    "file": "images/portfolio/prestige-key-garden-flat-interior/04-kitchen-counter.jpg",
+    "project": "prestige-key-garden-flat-interior",
+    "pdf_page": 18,
+    "xref": 161,
+    "original": "1280x960",
+    "output": "1280x960",
+    "cropped_for": null,
+    "attribution": "inferred from page sequence"
+  },
+  {
+    "file": "images/portfolio/hal-staff-villas/01-villas-under-construction.jpg",
+    "project": "hal-staff-villas",
+    "pdf_page": 19,
+    "xref": 166,
+    "original": "1152x531",
+    "output": "1152x414",
+    "cropped_for": "camera watermark",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/hal-staff-villas/02-slab-concreting.jpg",
+    "project": "hal-staff-villas",
+    "pdf_page": 20,
+    "xref": 173,
+    "original": "1024x472",
+    "output": "1024x373",
+    "cropped_for": "camera watermark",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/hal-staff-villas/03-lower-level-formwork.jpg",
+    "project": "hal-staff-villas",
+    "pdf_page": 19,
+    "xref": 165,
+    "original": "1280x590",
+    "output": "1280x466",
+    "cropped_for": "camera watermark",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/hal-staff-villas/04-site-progress.jpg",
+    "project": "hal-staff-villas",
+    "pdf_page": 20,
+    "xref": 172,
+    "original": "1280x590",
+    "output": "1280x466",
+    "cropped_for": "camera watermark",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/hal-staff-villas/05-ground-floor-walls.jpg",
+    "project": "hal-staff-villas",
+    "pdf_page": 20,
+    "xref": 174,
+    "original": "1024x472",
+    "output": "1024x373",
+    "cropped_for": "camera watermark",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sudheeksha-groups-office/01-workstations.jpg",
+    "project": "sudheeksha-groups-office",
+    "pdf_page": 21,
+    "xref": 178,
+    "original": "1280x575",
+    "output": "1280x575",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sudheeksha-groups-office/02-carpeted-work-area.jpg",
+    "project": "sudheeksha-groups-office",
+    "pdf_page": 22,
+    "xref": 185,
+    "original": "1152x867",
+    "output": "1152x867",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sudheeksha-groups-office/03-pantry-storage.jpg",
+    "project": "sudheeksha-groups-office",
+    "pdf_page": 22,
+    "xref": 186,
+    "original": "1613x1210",
+    "output": "1613x1210",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/sudheeksha-groups-office/04-partition.jpg",
+    "project": "sudheeksha-groups-office",
+    "pdf_page": 22,
+    "xref": 184,
+    "original": "575x1280",
+    "output": "575x1280",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/k-raheja-marriott-hotel-bengaluru/01-corridor-blockwork.jpg",
+    "project": "k-raheja-marriott-hotel-bengaluru",
+    "pdf_page": 23,
+    "xref": 190,
+    "original": "720x1280",
+    "output": "720x1165",
+    "cropped_for": "camera watermark + date",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/k-raheja-marriott-hotel-bengaluru/02-blockwork-from-scaffold.jpg",
+    "project": "k-raheja-marriott-hotel-bengaluru",
+    "pdf_page": 24,
+    "xref": 196,
+    "original": "648x1152",
+    "output": "648x1048",
+    "cropped_for": "camera watermark + date",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/k-raheja-marriott-hotel-bengaluru/03-blockwork-wall.jpg",
+    "project": "k-raheja-marriott-hotel-bengaluru",
+    "pdf_page": 24,
+    "xref": 197,
+    "original": "648x1152",
+    "output": "648x1048",
+    "cropped_for": "camera watermark + date",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/k-raheja-marriott-hotel-bengaluru/04-openings.jpg",
+    "project": "k-raheja-marriott-hotel-bengaluru",
+    "pdf_page": 24,
+    "xref": 198,
+    "original": "648x1152",
+    "output": "648x1048",
+    "cropped_for": "camera watermark + date",
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/stp-flamingo-properties/01-excavation-and-formwork.jpg",
+    "project": "stp-flamingo-properties",
+    "pdf_page": 25,
+    "xref": 202,
+    "original": "1152x864",
+    "output": "1152x864",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/stp-flamingo-properties/02-formwork-overview.jpg",
+    "project": "stp-flamingo-properties",
+    "pdf_page": 26,
+    "xref": 209,
+    "original": "1152x864",
+    "output": "1152x864",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/stp-flamingo-properties/03-concreting.jpg",
+    "project": "stp-flamingo-properties",
+    "pdf_page": 26,
+    "xref": 208,
+    "original": "672x896",
+    "output": "672x896",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/stp-flamingo-properties/04-walls-rising.jpg",
+    "project": "stp-flamingo-properties",
+    "pdf_page": 26,
+    "xref": 210,
+    "original": "1152x864",
+    "output": "1152x864",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/unattributed/reinforcement-in-excavation.jpg",
+    "project": "unattributed",
+    "pdf_page": 3,
+    "xref": 60,
+    "original": "480x640",
+    "output": "480x640",
+    "cropped_for": null,
+    "attribution": "documented"
+  },
+  {
+    "file": "images/portfolio/unattributed/interior-partition-works.jpg",
+    "project": "unattributed",
+    "pdf_page": 28,
+    "xref": 236,
+    "original": "960x1280",
+    "output": "960x947",
+    "cropped_for": "third-party logo + timestamp",
+    "attribution": "documented"
+  }
+]

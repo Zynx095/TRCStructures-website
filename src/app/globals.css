@@ -1,0 +1,265 @@
+@import "tailwindcss";
+
+/* ───────────────────────── Design tokens (Direction A — Industrial Editorial) ───────────────────────── */
+@theme {
+  /* palette: replace Tailwind's default colours entirely */
+  --color-*: initial;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-ink: #1b1f23;
+  --color-slate-deep: #151c22;
+  --color-slate: #1f2a33;
+  --color-slate-raised: #27343e;
+  --color-slate-line: #3a4853;
+  --color-concrete: #e9e7e2;
+  --color-concrete-deep: #dcd8d0;
+  --color-paper: #f7f6f3;
+  --color-amber: #e8a317;
+  --color-amber-deep: #b7790a;
+  --color-muted: #5b646c;
+  --color-muted-dark: #a7b0b8;
+  --color-line: #d6d3cc;
+  --color-success: #2e7d4f;
+  --color-error: #b3261e;
+
+  /* type families (next/font variables are set on <html>) */
+  --font-display: var(--font-barlow), "Arial Narrow", Arial, sans-serif;
+  --font-heading: var(--font-archivo), "Helvetica Neue", Arial, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* fluid type scale */
+  --text-label: 0.8125rem;
+  --text-label--line-height: 1.25;
+  --text-lede: clamp(1.125rem, 0.98rem + 0.55vw, 1.4rem);
+  --text-lede--line-height: 1.5;
+  --text-h3: clamp(1.25rem, 1.08rem + 0.6vw, 1.7rem);
+  --text-h3--line-height: 1.2;
+  --text-h2: clamp(2rem, 1.35rem + 2.1vw, 3.5rem);
+  --text-h2--line-height: 1.04;
+  --text-h1: clamp(2.6rem, 1.6rem + 3.6vw, 5.4rem);
+  --text-h1--line-height: 0.98;
+  --text-display: clamp(3.4rem, 1rem + 8.6vw, 11.5rem);
+  --text-display--line-height: 0.86;
+  --text-mega: clamp(4.2rem, 0.2rem + 13.5vw, 17rem);
+  --text-mega--line-height: 0.8;
+
+  --ease-structural: cubic-bezier(0.76, 0, 0.24, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+
+  --breakpoint-3xl: 112rem;
+  --breakpoint-4xl: 150rem;
+}
+
+/* ───────────────────────── Base ───────────────────────── */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-padding-top: 6rem;
+    background: var(--color-slate-deep);
+  }
+
+  /* large monitors: scale the whole rem-based system so the layout is designed, not stretched */
+  @media (min-width: 1800px) {
+    html {
+      font-size: 106.25%;
+    }
+  }
+  @media (min-width: 2400px) {
+    html {
+      font-size: 125%;
+    }
+  }
+  @media (min-width: 3200px) {
+    html {
+      font-size: 150%;
+    }
+  }
+
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "cv11", "ss01";
+  }
+  @media (min-width: 1024px) {
+    body {
+      font-size: 1.0625rem;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  p,
+  li {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-amber);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus-ring, var(--color-ink));
+    outline-offset: 3px;
+  }
+
+  [data-tone="dark"] {
+    --focus-ring: var(--color-amber);
+    background-color: var(--color-slate);
+    color: var(--color-white);
+  }
+
+  [data-tone="deep"] {
+    --focus-ring: var(--color-amber);
+    background-color: var(--color-slate-deep);
+    color: var(--color-white);
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* ───────────────────────── Utilities ───────────────────────── */
+@utility shell {
+  width: 100%;
+  max-width: 120rem;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4.2vw, 4.5rem);
+}
+
+@utility section-y {
+  padding-block: clamp(4.5rem, 3rem + 7vw, 10rem);
+}
+
+/* drawing lettering: condensed caps, used for title blocks, chips and grid bubbles only */
+@utility lettering {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--text-label);
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+@utility display-type {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+@utility text-muted-auto {
+  color: var(--color-muted);
+  [data-tone="dark"] &,
+  [data-tone="deep"] & {
+    color: var(--color-muted-dark);
+  }
+}
+
+@utility hairline {
+  border-color: var(--color-line);
+  [data-tone="dark"] &,
+  [data-tone="deep"] & {
+    border-color: var(--color-slate-line);
+  }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ───────────────────────── Motion gating ─────────────────────────
+   An inline script adds .anim when JS runs and motion is allowed. Elements marked
+   data-intro start hidden only then; GSAP reveals them and adds .anim-ready.
+   If GSAP has not started after 3.5s, .anim-fallback shows everything. */
+.anim:not(.anim-fallback) [data-intro] {
+  opacity: 0;
+}
+
+/* ───────────────────────── Prose ───────────────────────── */
+.prose-trc p + p {
+  margin-top: 1em;
+}
+
+/* ───────────────────────── Map facade ───────────────────────── */
+.map-frame iframe {
+  filter: grayscale(0.35) contrast(1.05);
+}
+
+/* ───────────────────────── Menu state ───────────────────────── */
+html.menu-open {
+  overflow: hidden;
+}
+html.menu-open [data-action-bar] {
+  visibility: hidden;
+}
+
+/* ───────────────────────── Footer reveal (desktop) ─────────────────────────
+   The page surface slides away to uncover the footer beneath it. */
+@media (min-width: 1024px) and (min-height: 680px) {
+  [data-site-footer] {
+    position: sticky;
+    bottom: 0;
+    z-index: 0;
+  }
+  [data-page-surface] {
+    box-shadow: 0 2.5rem 5rem -2rem rgb(0 0 0 / 0.55);
+  }
+}
+
+/* ───────────────────────── View transitions (project card → project page) ───────────────────────── */
+::view-transition-group(.morph) {
+  animation-duration: 650ms;
+  animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+}
+::view-transition-image-pair(.morph) {
+  animation-name: trc-morph;
+}
+@keyframes trc-morph {
+  35% {
+    filter: blur(2px);
+  }
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 320ms;
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
